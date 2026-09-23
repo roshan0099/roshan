@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roshan | Production Engineer • SRE • DevOps</title>
+  <meta name="description" content="Portfolio of Roshan - Production Engineer, SRE, and DevOps specialist focusing on scalable cloud infrastructure, Kubernetes, CI/CD, and site reliability.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+  <!-- Ambient background glow & scanline grid -->
+  <div class="terminal-grid-overlay" aria-hidden="true"></div>
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- Terminal Container Window -->
+  <div class="terminal-window">
+    
+    <!-- Terminal Titlebar -->
+    <header class="terminal-titlebar">
+      <div class="window-controls">
+        <span class="control-dot close"></span>
+        <span class="control-dot minimize"></span>
+        <span class="control-dot expand"></span>
+      </div>
+      <div class="window-title">
+        <span class="title-path">roshan@portfolio: ~ (zsh)</span>
+      </div>
+      <div class="window-status">
+        <span class="status-indicator"></span>
+        <span class="status-text">SYSTEM ONLINE &bull; 99.99%</span>
+      </div>
+    </header>
+
+    <!-- Terminal Content Area -->
+    <main class="terminal-body" id="terminal-content">
+
+      <!-- Hero Header Section -->
+      <section class="terminal-section hero-section" id="hero">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd typewriter" id="cmd-whoami">whoami --verbose</span>
+        </div>
+        <div class="terminal-card hero-card">
+          <div class="hero-top">
+            <div>
+              <h1 class="hero-name">Roshan</h1>
+              <div class="hero-role">Production Engineer <span class="role-separator">&bull;</span> SRE <span class="role-separator">&bull;</span> DevOps</div>
+            </div>
+          </div>
+          <p class="hero-tagline">
+            Specialising in cloud, Linux, Docker automation, and exploring Kubernetes.
+          </p>
+          <div class="hero-quick-actions">
+            <a href="mailto:roshan09ka@gmail.com" class="btn-action primary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Get in Touch
+            </a>
+            <button id="copy-email-btn" class="btn-action secondary" title="Copy roshan09ka@gmail.com">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span id="copy-email-text">Copy Email</span>
+            </button>
+            <a href="https://github.com/roshan0099" target="_blank" rel="noopener noreferrer" class="btn-action secondary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: About Me -->
+      <section class="terminal-section" id="about">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd">cat about.txt</span>
+        </div>
+        <div class="terminal-card">
+          <div class="card-header">
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-content">
+            <p class="about-paragraph">
+              I’m someone who loves simplifying cloud infrastructure and automating wherever possible. I love working on CI/CD, scaling apps and keeping systems smooth and reliable.
+            </p>
+            <p class="about-paragraph">
+              I’m passionate about DevOps and SRE, always learning and finding new ways to make systems faster, sturdier, and future-ready.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Work Experience -->
+      <section class="terminal-section" id="experience">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd">cat experience.txt</span>
+        </div>
+        <div class="terminal-card">
+          <div class="card-header">
+            <h2 class="section-title">Work Experience</h2>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-content">
+            <div class="experience-list">
+              <!-- Item 1: Impact Analytics -->
+              <div class="experience-item">
+                <div class="experience-top">
+                  <h3 class="role-title">Production Engineer</h3>
+                  <span class="live-indicator-dot" title="Active role"></span>
+                </div>
+                <div class="company-name">Impact Analytics</div>
+                <div class="tenure-badge present">Present</div>
+              </div>
+
+              <!-- Item 2: Deloitte -->
+              <div class="experience-item">
+                <div class="experience-top">
+                  <h3 class="role-title">Jr Solution Analyst</h3>
+                </div>
+                <div class="company-name">Deloitte</div>
+                <div class="tenure-badge previous">Previous</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Skills -->
+      <section class="terminal-section" id="skills">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd">ls -la skills/</span>
+        </div>
+        <div class="terminal-card">
+          <div class="card-header">
+            <h2 class="section-title">Skills</h2>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-content">
+            <div class="skills-grid">
+              
+              <!-- 1. GCP -->
+              <div class="skill-card" data-skill="GCP">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">GCP</span>
+              </div>
+
+              <!-- 2. AWS -->
+              <div class="skill-card" data-skill="AWS">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">AWS</span>
+              </div>
+
+              <!-- 3. Terraform -->
+              <div class="skill-card" data-skill="Terraform">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-name">Terraform</span>
+              </div>
+
+              <!-- 4. Ansible -->
+              <div class="skill-card" data-skill="Ansible">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5h-2l-1-3h4zm1.5-5.5h-5l-.8-2.5h6.6z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">Ansible</span>
+              </div>
+
+              <!-- 5. Docker -->
+              <div class="skill-card" data-skill="Docker">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M22.5 10.5c-.3-2-1.9-3.5-3.5-3.5-.2 0-.4 0-.6.1-.8-1.5-2.4-2.6-4.4-2.6h-.5V3h-3v2h-2V3H6v2H4.5C2 5 0 7 0 9.5 0 12.3 2 14.5 4.7 15c.8 3.5 3.9 6 7.8 6 5.5 0 9.5-3.8 9.5-8.5v-1.5c.3-.1.5-.3.5-.5zM7.5 7h2v2h-2V7zm-3 0h2v2h-2V7zm6 0h2v2h-2V7zm-3 3h2v2h-2v-2zm-3 0h2v2h-2v-2zm6 0h2v2h-2v-2z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">Docker</span>
+              </div>
+
+              <!-- 6. GitHub Actions -->
+              <div class="skill-card" data-skill="GitHub Actions">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">GitHub Actions</span>
+              </div>
+
+              <!-- 7. Bitbucket Pipelines -->
+              <div class="skill-card" data-skill="Bitbucket Pipelines">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2.65 3C2.3 3 2 3.3 2 3.65c0 .08.01.16.04.24l3.85 16.38c.08.33.37.57.71.57h11.23c.31 0 .58-.2.67-.5l3.46-16.45c.04-.15.04-.25 0-.36-.08-.31-.35-.53-.67-.53H2.65zm10.74 12.67H8.67l-1.39-7h7.45l-1.34 7z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">Bitbucket Pipelines</span>
+              </div>
+
+              <!-- 8. Prometheus -->
+              <div class="skill-card" data-skill="Prometheus">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16h-2v-6h2v6zm0-8h-2V7h2v3z"/>
+                  </svg>
+                </div>
+                <span class="skill-name">Prometheus</span>
+              </div>
+
+              <!-- 9. Grafana -->
+              <div class="skill-card" data-skill="Grafana">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                  </svg>
+                </div>
+                <span class="skill-name">Grafana</span>
+              </div>
+
+              <!-- 10. ELK Stack -->
+              <div class="skill-card" data-skill="ELK Stack">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                </div>
+                <span class="skill-name">ELK Stack</span>
+              </div>
+
+              <!-- 11. New Relic -->
+              <div class="skill-card" data-skill="New Relic">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <circle cx="12" cy="12" r="4"/>
+                  </svg>
+                </div>
+                <span class="skill-name">New Relic</span>
+              </div>
+
+              <!-- 12. Incident Response -->
+              <div class="skill-card" data-skill="Incident Response">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+                <span class="skill-name">Incident Response</span>
+              </div>
+
+              <!-- 13. SLOs/SLIs -->
+              <div class="skill-card" data-skill="SLOs/SLIs">
+                <div class="skill-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 6v6l4 2"></path>
+                  </svg>
+                </div>
+                <span class="skill-name">SLOs/SLIs</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Projects -->
+      <section class="terminal-section" id="projects">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd">find ./projects -type f -name "*.md" | xargs cat</span>
+        </div>
+        <div class="terminal-card">
+          <div class="card-header">
+            <h2 class="section-title">Projects</h2>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-content">
+            <div class="projects-grid">
+              <!-- Project 1: CLIP-GKE -->
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">CLIP-GKE</h3>
+                </div>
+                <p class="project-desc">
+                  Hosted OpenAI’s CLIP model on Google Kubernetes Engine with a fully automated pipeline that provisions the GKE cluster, builds Docker images, and deploys to pods. Complete end-to-end automation from infrastructure to deployment.
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/roshan0099" target="_blank" rel="noopener noreferrer" class="btn-card">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                    GitHub
+                  </a>
+                  <a href="https://dev.to/mroshank/hosting-openai-clip-on-gke-4i47" target="_blank" rel="noopener noreferrer" class="btn-card">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    Article
+                  </a>
+                </div>
+                <div class="project-tags">
+                  <span class="tag-badge">GKE</span>
+                  <span class="tag-badge">Terraform</span>
+                  <span class="tag-badge">Docker</span>
+                  <span class="tag-badge">OpenAI CLIP</span>
+                  <span class="tag-badge">CI/CD (GitHub Actions)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Blogs -->
+      <section class="terminal-section" id="blogs">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd">ls -la blogs/</span>
+        </div>
+        <div class="terminal-card">
+          <div class="card-header">
+            <h2 class="section-title">Blogs</h2>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-content">
+            <div class="blogs-grid">
+              
+              <!-- Blog 1 -->
+              <div class="blog-card">
+                <h3 class="blog-title">Hosting OpenAI CLIP on GKE</h3>
+                <a href="https://dev.to/mroshank/hosting-openai-clip-on-gke-4i47" target="_blank" rel="noopener noreferrer" class="btn-card blog-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Read Article
+                </a>
+              </div>
+
+              <!-- Blog 2 -->
+              <div class="blog-card">
+                <h3 class="blog-title">Data Transfer Made Easy - Rclone</h3>
+                <a href="https://dev.to/mroshank/data-transfer-made-easy-rclone-2m3f" target="_blank" rel="noopener noreferrer" class="btn-card blog-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Read Article
+                </a>
+              </div>
+
+              <!-- Blog 3 -->
+              <div class="blog-card">
+                <h3 class="blog-title">Know what you want - Dockerfile 7GB to 1GB</h3>
+                <a href="https://dev.to/mroshank/know-what-u-want-dockerfile-7gb-to-1gb-4ldm" target="_blank" rel="noopener noreferrer" class="btn-card blog-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Read Article
+                </a>
+              </div>
+
+              <!-- Blog 4 -->
+              <div class="blog-card">
+                <h3 class="blog-title">Vibecoded a Game using AmazonQ CLI</h3>
+                <a href="https://dev.to/mroshank/vibecoded-a-game-using-amazonq-cli-n3m" target="_blank" rel="noopener noreferrer" class="btn-card blog-btn">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Read Article
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Contact -->
+      <section class="terminal-section" id="contact">
+        <div class="terminal-prompt">
+          <span class="prompt-prefix"><span class="prompt-arrow">&gt;</span> <span class="prompt-user">roshan@portfolio</span>:<span class="prompt-path">~</span>$</span>
+          <span class="prompt-cmd">cat contact.txt</span>
+        </div>
+        <div class="terminal-card">
+          <div class="card-header">
+            <h2 class="section-title">Contact</h2>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-content">
+            <p class="contact-desc">
+              Interested in working together? Feel free to reach out!
+            </p>
+            <div class="contact-buttons">
+              <!-- Email -->
+              <a href="mailto:roshan09ka@gmail.com" class="btn-card contact-btn" id="contact-email">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Email
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/mohamed-roshan-k/" target="_blank" rel="noopener noreferrer" class="btn-card contact-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                LinkedIn
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/roshan0099" target="_blank" rel="noopener noreferrer" class="btn-card contact-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                GitHub
+              </a>
+
+              <!-- Twitter -->
+              <a href="https://x.com/home" target="_blank" rel="noopener noreferrer" class="btn-card contact-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                Twitter
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Terminal Output Log (dynamic results from interactive terminal) -->
+      <section id="cli-log" class="cli-log" style="display: none;"></section>
+
+    </main>
+
+    <!-- Interactive Terminal Command Bar at Bottom -->
+    <footer class="terminal-footer">
+      <div class="interactive-prompt">
+        <label for="terminal-input" class="cli-label">
+          <span class="prompt-arrow">&gt;</span>
+          <span class="prompt-user">roshan@portfolio</span><span class="prompt-colon">:</span><span class="prompt-path">~</span><span class="prompt-dollar">$</span>
+        </label>
+        <div class="cli-input-wrapper">
+          <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="type 'help' or click commands below...">
+          <span class="blinking-cursor"></span>
+        </div>
+      </div>
+      <div class="cli-shortcuts">
+        <span class="shortcut-label">Quick cmds:</span>
+        <button class="shortcut-pill" data-cmd="cat about.txt">cat about.txt</button>
+        <button class="shortcut-pill" data-cmd="cat experience.txt">cat experience.txt</button>
+        <button class="shortcut-pill" data-cmd="ls skills/">ls skills/</button>
+        <button class="shortcut-pill" data-cmd="find projects">find projects</button>
+        <button class="shortcut-pill" data-cmd="ls blogs/">ls blogs/</button>
+        <button class="shortcut-pill" data-cmd="cat contact.txt">cat contact.txt</button>
+        <button class="shortcut-pill help-pill" data-cmd="help">help</button>
+        <button class="shortcut-pill clear-pill" data-cmd="clear">clear</button>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast notification for copy action -->
+  <div id="toast" class="terminal-toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
